@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Ron Portfolio | Full-Stack .NET Developer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Professional portfolio of Ron Jeremie Dionglay, Full-Stack Developer specializing in ASP.NET, C#, and modern web technologies" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header id="header">
+            <div class="container">
+                <nav>
+                    <a href="#home" class="logo">RD_Dev</a>
+                    <ul class="nav-links">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <button id="mobile-menu-button">☰</button>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section id="home" class="hero">
+                <div class="container">
+                   <img src="img/ronskie.jpg" alt="Profile Picture" class="profile-pic" />
+                    <h1>Ron Jeremie Dionglay</h1>
+                    <div class="code-block">
+                        <span class="keyword">public class</span> <span class="type">Developer</span> {<br />
+                        &nbsp;&nbsp;<span class="keyword">public string</span> Name = <span class="string">"Ron Jeremie Dionglay"</span>;<br />
+                        &nbsp;&nbsp;<span class="keyword">public string</span> Specialty = <span class="string">"Full-Stack .NET Development"</span>;<br />
+                        &nbsp;&nbsp;<span class="keyword">public string[]</span> Skills = { <span class="string">"C#"</span>, <span class="string">"ASP.NET"</span>, <span class="string">"SQL"</span>, <span class="string">"JavaScript"</span> };<br />
+                        }
+                    </div>
+                    <div class="cta-container">
+                        <a href="#projects" class="btn">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about">
+                <div class="container">
+                    <h2><i class="fas fa-user"></i> About Me</h2>
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-terminal"></i>
+                            <h3>Professional Summary</h3>
+                        </div>
+                        <p>Aspiring Web and Game Developer with hands-on experience from academic projects, capstone, and internship, seeking a professional opportunity to apply and enhance my skills in web and app development. Eager to contribute to innovative projects within a dynamic team environment while continuously learning and taking on new challenges in the field of Information Technology.</p>
+                        
+                        <div class="code-block">
+                            <span class="comment">// My development philosophy</span><br />
+                            <span class="keyword">while</span>(<span class="keyword">true</span>) {<br />
+                            &nbsp;&nbsp;<span class="type">Code</span>.Review();<br />
+                            &nbsp;&nbsp;<span class="type">Skills</span>.Improve();<br />
+                            &nbsp;&nbsp;<span class="type">Solutions</span>.Deliver();<br />
+                            }
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="skills">
+                <div class="container">
+                    <h2><i class="fas fa-code"></i> Technical Skills</h2>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fab fa-microsoft"></i>
+                            <h3>.NET Technologies</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                                <div>C#</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-windows"></i></div>
+                                <div>ASP.NET Core</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                                <div>Entity Framework</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
+                                <div>ASP.NET MVC</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-server"></i></div>
+                                <div>Web API</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-table"></i></div>
+                                <div>LINQ</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-globe"></i>
+                            <h3>Web Technologies</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                                <div>JavaScript</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                                <div>HTML5</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                                <div>CSS3</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+                                <div>Bootstrap</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-sass"></i></div>
+                                <div>SASS</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-database"></i>
+                            <h3>Database & DevOps</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                                <div>SQL Server</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-table"></i></div>
+                                <div>PostgreSQL</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-leaf"></i></div>
+                                <div>MongoDB</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                                <div>Git</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                                <div>AWS</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                                <div>Docker</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects">
+                <div class="container">
+                    <h2><i class="fas fa-project-diagram"></i> Featured Projects</h2>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Enterprise Resource System</h3>
+                        </div>
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Enterprise Resource System" />
+                            <div class="project-overlay">
+                                <h3>Enterprise Resource System</h3>
+                                <p>Comprehensive management system built with ASP.NET Core and React</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">ASP.NET Core</span>
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">SQL Server</span>
+                                    <span class="tech-tag">Entity Framework</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-block">
+                            <span class="comment">// Main architecture</span><br />
+                            <span class="keyword">public void</span> ConfigureServices(<span class="type">IServiceCollection</span> services) {<br />
+                            &nbsp;&nbsp;services.AddControllersWithViews();<br />
+                            &nbsp;&nbsp;services.AddDbContext&lt;<span class="type">AppDbContext</span>&gt;(options =><br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;options.UseSqlServer(<span class="type">Configuration</span>.GetConnectionString(<span class="string">"Default"</span>)));<br />
+                            &nbsp;&nbsp;services.AddScoped&lt;<span class="type">IUnitOfWork</span>, <span class="type">UnitOfWork</span>&gt;();<br />
+                            }
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>Inventory Management App</h3>
+                        </div>
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1617791160536-598cf32026fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Inventory Management App" />
+                            <div class="project-overlay">
+                                <h3>Inventory Management</h3>
+                                <p>Mobile-first inventory tracking system with barcode scanning</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Xamarin</span>
+                                    <span class="tech-tag">.NET MAUI</span>
+                                    <span class="tech-tag">SQLite</span>
+                                    <span class="tech-tag">REST API</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="experience">
+                <div class="container">
+                    <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-building"></i>
+                            <h3>Work History</h3>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h3>Senior .NET Developer</h3>
+                                <div class="timeline-date">2022 - Present</div>
+                                <p>Leading development of enterprise applications using ASP.NET Core and microservices architecture. Mentoring junior developers and implementing CI/CD pipelines.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h3>.NET Developer</h3>
+                                <div class="timeline-date">2019 - 2022</div>
+                                <p>Developed and maintained web applications using ASP.NET MVC and Web API. Implemented complex business logic and optimized database performance.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h3>Junior Developer</h3>
+                                <div class="timeline-date">2017 - 2019</div>
+                                <p>Started career building internal tools and supporting main applications. Gained experience with full development lifecycle.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact">
+                <div class="container">
+                    <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-paper-plane"></i>
+                            <h3>Get In Touch</h3>
+                        </div>
+                        <div class="form-group">
+                            <asp:Label runat="server" Text="Name:" AssociatedControlID="txtName" />
+                            <asp:TextBox ID="txtName" runat="server" CssClass="form-control" placeholder="Your Name"></asp:TextBox>
+                        </div>
+                        <div class="form-group">
+                            <asp:Label runat="server" Text="Email:" AssociatedControlID="txtEmail" />
+                            <asp:TextBox ID="txtEmail" runat="server" TextMode="Email" CssClass="form-control" placeholder="Your Email"></asp:TextBox>
+                        </div>
+                        <div class="form-group">
+                            <asp:Label runat="server" Text="Message:" AssociatedControlID="txtMessage" />
+                            <asp:TextBox ID="txtMessage" runat="server" TextMode="MultiLine" Rows="5" CssClass="form-control" placeholder="Your Message"></asp:TextBox>
+                        </div>
+                        <asp:Button ID="btnSubmit" runat="server" Text="Send Message" CssClass="btn" OnClick="btnSubmit_Click" />
+                    </div>
+                    
+                    <div class="social-links" style="margin-top: 20px;">
+                        <a href="https://github.com/yourprofile" class="btn btn-outline" style="margin: 5px;"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://linkedin.com/in/yourprofile" class="btn btn-outline" style="margin: 5px;"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://stackoverflow.com/users/yourprofile" class="btn btn-outline" style="margin: 5px;"><i class="fab fa-stack-overflow"></i> Stack Overflow</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">JB_Dev</div>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Work</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>&copy; <2025> Ron Jeremie Dionglay All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+
+    <script>
+        // Mobile menu toggle functionality
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                const navLinks = document.querySelector('.nav-links');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                
+                // Update active nav link
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.classList.remove('active');
+                });
+                this.classList.add('active');
+            });
+        });
+
+        // Header shadow on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.3)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
+
+        // Animate elements when they come into view
+        const animateOnScroll = function() {
+            const elements = document.querySelectorAll('.card, .timeline-item');
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementPosition < windowHeight - 100) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        };
+        
+        // Set initial state for animation
+        document.querySelectorAll('.card, .timeline-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        });
+        
+        window.addEventListener('scroll', animateOnScroll);
+        animateOnScroll(); // Run once on load
+    </script>
+</body>
+</html>
